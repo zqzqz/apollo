@@ -1,3 +1,5 @@
+conf/
+
 # Bazel
 bazel-*
 WORKSPACE

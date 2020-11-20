@@ -1103,7 +1103,7 @@ void Obstacle::SetLanePoints(const Feature* feature,
           std::string lane_id = lane_segment->lane_id();
           lane_segment->set_lane_turn_type(
               PredictionMap::LaneTurnType(lane_id));
-          ADEBUG << "Currently on " << lane_id;
+          // ADEBUG << "Currently on " << lane_id;
           auto lane_info = PredictionMap::LaneById(lane_id);
           if (lane_info == nullptr) {
             break;
@@ -1119,7 +1119,7 @@ void Obstacle::SetLanePoints(const Feature* feature,
           double lane_point_angle_diff =
               common::math::AngleDiff(lane_point_heading, heading);
           // 3. Update it into the lane_graph
-          ADEBUG << lane_point_pos[0] << "    " << lane_point_pos[1];
+          // ADEBUG << lane_point_pos[0] << "    " << lane_point_pos[1];
           LanePoint lane_point;
           lane_point.mutable_position()->set_x(lane_point_pos[0]);
           lane_point.mutable_position()->set_y(lane_point_pos[1]);

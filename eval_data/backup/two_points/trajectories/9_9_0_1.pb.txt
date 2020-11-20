@@ -1,0 +1,508 @@
+probability: 1
+trajectory_point {
+  path_point {
+    x: 587476.89209469676
+    y: 4140706.4925816716
+    theta: -0.97969801257127687
+  }
+  v: 4.799999999214946
+  relative_time: 0
+  gaussian_info {
+    sigma_x: 0.34630970746788486
+    sigma_y: 0.52339280510884612
+    correlation: -0.93037126126307712
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587477.22439291852
+    y: 4140706.11250694
+    theta: -0.97969801257127687
+  }
+  v: 5.0485533546095347
+  relative_time: 0.1
+  gaussian_info {
+    sigma_x: 0.39460547813932062
+    sigma_y: 0.55840221988014727
+    correlation: -0.90631774008765575
+    ellipse_a: 0.13909185699568719
+    ellipse_b: 0.66946245440810892
+    theta_a: -2.5424791923799126
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587477.623686943
+    y: 4140705.6550136846
+    theta: -0.97969801257127687
+  }
+  v: 6.0723619513331135
+  relative_time: 0.2
+  gaussian_info {
+    sigma_x: 0.43299290299824206
+    sigma_y: 0.61212357874444068
+    correlation: -0.90141531857071067
+    ellipse_a: 0.15649132359233878
+    ellipse_b: 0.73327252460600523
+    theta_a: -2.5429007694722019
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587478.009900391
+    y: 4140705.2064214908
+    theta: -0.97969801257127687
+  }
+  v: 5.9194238220204864
+  relative_time: 0.30000000000000004
+  gaussian_info {
+    sigma_x: 0.46924529253005542
+    sigma_y: 0.662875041001257
+    correlation: -0.90845491910277243
+    ellipse_a: 0.16342542975944185
+    ellipse_b: 0.7955416981227178
+    theta_a: -2.5412020941961986
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587478.38736254373
+    y: 4140704.7436616342
+    theta: -0.97969801257127687
+  }
+  v: 5.9718034263742448
+  relative_time: 0.4
+  gaussian_info {
+    sigma_x: 0.50975532064469309
+    sigma_y: 0.71367432532944186
+    correlation: -0.91291894766348392
+    ellipse_a: 0.1726773948992871
+    ellipse_b: 0.85986280699353634
+    theta_a: -2.5358373306581905
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587478.77545529464
+    y: 4140704.2548574586
+    theta: -0.97969801257127687
+  }
+  v: 6.2413580679049572
+  relative_time: 0.5
+  gaussian_info {
+    sigma_x: 0.55134349159986873
+    sigma_y: 0.76489381122130928
+    correlation: -0.918429186485301
+    ellipse_a: 0.1802518136603003
+    ellipse_b: 0.92550066010044907
+    theta_a: -2.5302351761324733
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587479.17568919936
+    y: 4140703.7424507043
+    theta: -0.97969801257127687
+  }
+  v: 6.5019063384754068
+  relative_time: 0.60000000000000009
+  gaussian_info {
+    sigma_x: 0.592954705183417
+    sigma_y: 0.81873580129612444
+    correlation: -0.92486568195361563
+    ellipse_a: 0.18579313751472032
+    ellipse_b: 0.99368229569394861
+    theta_a: -2.526727822654609
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587479.58236245508
+    y: 4140703.2144153947
+    theta: -0.97969801257127687
+  }
+  v: 6.6648662787793205
+  relative_time: 0.70000000000000007
+  gaussian_info {
+    sigma_x: 0.6332720447083795
+    sigma_y: 0.87399758976426145
+    correlation: -0.93118310828712358
+    ellipse_a: 0.18990465324176137
+    ellipse_b: 1.0624695253041361
+    theta_a: -2.5254235268989884
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587479.9928753667
+    y: 4140702.6756468047
+    theta: -0.97969801257127687
+  }
+  v: 6.7734219131682822
+  relative_time: 0.8
+  gaussian_info {
+    sigma_x: 0.673452856399948
+    sigma_y: 0.93082838569427029
+    correlation: -0.936841547107184
+    ellipse_a: 0.19359895048263429
+    ellipse_b: 1.1324750239097869
+    theta_a: -2.5252171580451548
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587480.40872198762
+    y: 4140702.1253625308
+    theta: -0.97969801257127687
+  }
+  v: 6.8973994683232114
+  relative_time: 0.9
+  gaussian_info {
+    sigma_x: 0.71565226747329092
+    sigma_y: 0.99089930769244983
+    correlation: -0.94176581707799589
+    ellipse_a: 0.19769038718151669
+    ellipse_b: 1.2062164468871501
+    theta_a: -2.5252758248249489
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587480.83259101736
+    y: 4140701.5604110947
+    theta: -0.92711913817795233
+  }
+  v: 7.0628257769273217
+  relative_time: 1
+  gaussian_info {
+    sigma_x: 0.76089741965457569
+    sigma_y: 1.0551730764755121
+    correlation: -0.94602356965423229
+    ellipse_a: 0.202487151745815
+    ellipse_b: 1.2850502161136175
+    theta_a: -2.5253362796703751
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587481.26629670348
+    y: 4140700.9782141675
+    theta: -0.93053717516423617
+  }
+  v: 7.2598476855706426
+  relative_time: 1.1
+  gaussian_info {
+    sigma_x: 0.80913974903049157
+    sigma_y: 1.1236403841012284
+    correlation: -0.94974064092855615
+    ellipse_a: 0.20789701789982151
+    ellipse_b: 1.3689608015544652
+    theta_a: -2.5254130173505631
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587481.71050438017
+    y: 4140700.3775936621
+    theta: -0.93399661847264837
+  }
+  v: 7.4703778454241228
+  relative_time: 1.2000000000000002
+  gaussian_info {
+    sigma_x: 0.85971365822222046
+    sigma_y: 1.1955776539103506
+    correlation: -0.95301436724909616
+    ellipse_a: 0.2136972500481529
+    ellipse_b: 1.4569993088486584
+    theta_a: -2.5255781310656844
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587482.165185136
+    y: 4140699.758377993
+    theta: -0.93742893703109365
+  }
+  v: 7.6822043360806953
+  relative_time: 1.3
+  gaussian_info {
+    sigma_x: 0.91156185340134377
+    sigma_y: 1.2697380569578445
+    correlation: -0.95590616574266307
+    ellipse_a: 0.21963792205109836
+    ellipse_b: 1.547559022803541
+    theta_a: -2.5258998562422934
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587482.6297990575
+    y: 4140699.1212924742
+    theta: -0.94068822948918329
+  }
+  v: 7.8850748524816021
+  relative_time: 1.4000000000000001
+  gaussian_info {
+    sigma_x: 0.96367079433571479
+    sigma_y: 1.3449150726534134
+    correlation: -0.95843595824334638
+    ellipse_a: 0.22559514164239769
+    ellipse_b: 1.6390743682253441
+    theta_a: -2.5264304833067848
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587483.10355165182
+    y: 4140698.4673705064
+    theta: -0.94382985787820817
+  }
+  v: 8.07499511235826
+  relative_time: 1.5
+  gaussian_info {
+    sigma_x: 1.0151630065512649
+    sigma_y: 1.4200352098660762
+    correlation: -0.96061983897759684
+    ellipse_a: 0.23151279669429337
+    ellipse_b: 1.7301611925183102
+    theta_a: -2.5271940709211611
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587483.58580525219
+    y: 4140697.7978242496
+    theta: -0.94659595180519263
+  }
+  v: 8.25142851290682
+  relative_time: 1.6
+  gaussian_info {
+    sigma_x: 1.0656491264186116
+    sigma_y: 1.4945835277028228
+    correlation: -0.96246599884310968
+    ellipse_a: 0.23748109227711703
+    ellipse_b: 1.820162276482026
+    theta_a: -2.5281729672996938
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587484.07588578493
+    y: 4140697.1138299452
+    theta: -0.94908349890224952
+  }
+  v: 8.414434841398343
+  relative_time: 1.7000000000000002
+  gaussian_info {
+    sigma_x: 1.115018731458727
+    sigma_y: 1.5683909602824444
+    correlation: -0.96399858510602954
+    ellipse_a: 0.24360284226177828
+    ellipse_b: 1.9088673686355215
+    theta_a: -2.5293379921467878
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587484.57317522459
+    y: 4140696.4164762581
+    theta: -0.95132621335365308
+  }
+  v: 8.56503912288034
+  relative_time: 1.8
+  gaussian_info {
+    sigma_x: 1.1635202666096145
+    sigma_y: 1.6417163327263535
+    correlation: -0.96525467728511782
+    ellipse_a: 0.24999088872313255
+    ellipse_b: 1.9966262753723325
+    theta_a: -2.5306404820282555
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587485.07705254131
+    y: 4140695.706508718
+    theta: -0.95357740979086281
+  }
+  v: 8.7060109023291687
+  relative_time: 1.9000000000000001
+  gaussian_info {
+    sigma_x: 1.2117897945985938
+    sigma_y: 1.715291213493003
+    correlation: -0.9662560343787111
+    ellipse_a: 0.25685951737260654
+    ellipse_b: 2.0843899927112282
+    theta_a: -2.532019626289292
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587485.587154544
+    y: 4140694.984748276
+    theta: -0.95555653553528119
+  }
+  v: 8.8382248713388449
+  relative_time: 2
+  gaussian_info {
+    sigma_x: 1.2605246698625623
+    sigma_y: 1.7898920886363268
+    correlation: -0.96703837527701919
+    ellipse_a: 0.26435211175614409
+    ellipse_b: 2.1731898429049177
+    theta_a: -2.53340774607489
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587486.10328428971
+    y: 4140694.2518690359
+    theta: -0.95722412359446085
+  }
+  v: 8.963826721719
+  relative_time: 2.1
+  gaussian_info {
+    sigma_x: 1.310507888357737
+    sigma_y: 1.8663963131979802
+    correlation: -0.96762470624914776
+    ellipse_a: 0.2726474744341279
+    ellipse_b: 2.2641840645255762
+    theta_a: -2.5347409559172993
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587486.62536958046
+    y: 4140693.5083853318
+    theta: -0.958585438382108
+  }
+  v: 9.0848283913655958
+  relative_time: 2.2
+  gaussian_info {
+    sigma_x: 1.3624578893944259
+    sigma_y: 1.9455955663840017
+    correlation: -0.96803338132434991
+    ellipse_a: 0.28190995322383827
+    ellipse_b: 2.358423284014032
+    theta_a: -2.5359646616718128
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587487.15343902539
+    y: 4140692.7546678213
+    theta: -0.95965448057584912
+  }
+  v: 9.2029746511555786
+  relative_time: 2.3000000000000003
+  gaussian_info {
+    sigma_x: 1.4169968984247672
+    sigma_y: 2.0281457282734197
+    correlation: -0.96827177575654666
+    ellipse_a: 0.29231969296161059
+    ellipse_b: 2.4567874353240167
+    theta_a: -2.5370332126084287
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587487.68764990824
+    y: 4140691.9909449592
+    theta: -0.96041766913886517
+  }
+  v: 9.320160285496959
+  relative_time: 2.4000000000000004
+  gaussian_info {
+    sigma_x: 1.4746331557560157
+    sigma_y: 2.1145489772786714
+    correlation: -0.96834534412777573
+    ellipse_a: 0.30403924858037429
+    ellipse_b: 2.5599649327066771
+    theta_a: -2.5379103443007627
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587488.22831195465
+    y: 4140691.2173419218
+    theta: -0.96081691625732413
+  }
+  v: 9.4380988975482
+  relative_time: 2.5
+  gaussian_info {
+    sigma_x: 1.5357704661318459
+    sigma_y: 2.205153959567173
+    correlation: -0.96824888570994772
+    ellipse_a: 0.31726197007948304
+    ellipse_b: 2.6684526888028004
+    theta_a: -2.5385675059728263
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587488.7758620386
+    y: 4140690.4336350686
+    theta: -0.960965581107406
+  }
+  v: 9.5603740833536
+  relative_time: 2.6
+  gaussian_info {
+    sigma_x: 1.6006628294704475
+    sigma_y: 2.3000809496728243
+    correlation: -0.96796753519811729
+    ellipse_a: 0.33220793862430587
+    ellipse_b: 2.7824686438864266
+    theta_a: -2.5389818048855131
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587489.33079620742
+    y: 4140689.6396519584
+    theta: -0.96079260652789911
+  }
+  v: 9.6869041031970475
+  relative_time: 2.7
+  gaussian_info {
+    sigma_x: 1.6694092171508326
+    sigma_y: 2.3992983615189947
+    correlation: -0.96750233657555984
+    ellipse_a: 0.34899794273610429
+    ellipse_b: 2.9020269119809785
+    theta_a: -2.5391486015527773
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587489.89367264614
+    y: 4140688.8352159117
+    theta: -0.96026127066343969
+  }
+  v: 9.818081474434365
+  relative_time: 2.8000000000000003
+  gaussian_info {
+    sigma_x: 1.7419688486339941
+    sigma_y: 2.5025562555096363
+    correlation: -0.96684917124257386
+    ellipse_a: 0.36775257230655356
+    ellipse_b: 3.0268798005807183
+    theta_a: -2.53906437595035
+  }
+}
+trajectory_point {
+  path_point {
+    x: 587490.46511475148
+    y: 4140688.0201572627
+    theta: -0.95932879835402729
+  }
+  v: 9.9542286549572587
+  relative_time: 2.9000000000000004
+  gaussian_info {
+    sigma_x: 1.8180733812252337
+    sigma_y: 2.6093345421831451
+    correlation: -0.96599740886345664
+    ellipse_a: 0.38858633893521333
+    ellipse_b: 3.1564249127363708
+    theta_a: -2.5387404623902006
+  }
+}

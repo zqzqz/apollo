@@ -64,13 +64,16 @@ void SemanticMap::Init() {
 
 void SemanticMap::RunCurrFrame(
     const std::unordered_map<int, ObstacleHistory>& obstacle_id_history_map) {
+
   if (obstacle_id_history_map.find(FLAGS_ego_vehicle_id) ==
       obstacle_id_history_map.end()) {
     return;
   }
 
   ego_feature_ = obstacle_id_history_map.at(FLAGS_ego_vehicle_id).feature(0);
-  if (!FLAGS_enable_async_draw_base_image) {
+  // EDIT
+  // if (!FLAGS_enable_async_draw_base_image) {
+  if (true) {
     double x = ego_feature_.position().x();
     double y = ego_feature_.position().y();
     curr_base_x_ = x - FLAGS_base_image_half_range;
@@ -334,7 +337,9 @@ void SemanticMap::DrawHistory(const ObstacleHistory& history,
     if (feature.id() == FLAGS_ego_vehicle_id) {
       DrawRect(feature, decay_color, base_x, base_y, img);
     } else {
-      DrawPoly(feature, decay_color, base_x, base_y, img);
+      // EDIT
+      DrawRect(feature, decay_color, base_x, base_y, img);
+      // DrawPoly(feature, decay_color, base_x, base_y, img);
     }
   }
 }

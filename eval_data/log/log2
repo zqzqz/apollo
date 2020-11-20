@@ -1,0 +1,1909 @@
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+timeout: failed to run command './bazel-bin/modules/prediction/evaluate_prediction': Permission denied
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:19:39.133692 25711 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:19:39.135800 25711 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:19:39.135818 25711 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:19:39.136097 25711 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:19:39.136107 25711 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:19:39.136113 25711 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:19:40.844112 25711 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:19:40.845688 25711 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:19:40.845705 25711 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:19:40.874064 25711 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:19:40.889230 25711 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:19:40.893765 25711 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:19:41.271888 25711 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:19:44.422369 25711 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:19:44.422528 25711 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:19:44.422534 25711 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:19:44.422538 25711 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:19:44.431775 25711 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:19:44.433770 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:44.433859 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:44.433882 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:44.433900 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:44.433918 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:44.433936 25711 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:19:44.434012 25711 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:19:46.817755 25711 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817803 25711 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817814 25711 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817824 25711 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817847 25711 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817855 25711 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817864 25711 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817873 25711 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817883 25711 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817891 25711 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817900 25711 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817909 25711 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817917 25711 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817929 25711 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817937 25711 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817945 25711 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817955 25711 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817965 25711 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817975 25711 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817983 25711 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:19:46.817992 25711 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818001 25711 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818011 25711 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818019 25711 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818027 25711 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818037 25711 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818045 25711 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818058 25711 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818065 25711 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818074 25711 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818084 25711 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818092 25711 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818102 25711 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818111 25711 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818122 25711 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818130 25711 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818142 25711 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:19:46.818151 25711 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:19:48.209870 25711 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:19:48.210225 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210268 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210299 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210317 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210335 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210351 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.210561 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210583 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210600 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210618 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210636 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210654 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.210845 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210867 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210886 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210903 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210920 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.210937 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.211128 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211150 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211167 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211185 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211202 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211220 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.211410 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211433 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211452 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211469 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211488 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211504 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.211695 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211717 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211735 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211752 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211769 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211786 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.211977 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.211998 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212016 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212033 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212050 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212069 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.212255 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212276 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212294 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212311 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212329 25711 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:19:48.212517 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212538 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212556 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212574 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212590 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212607 25711 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:19:48.212625 25711 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:19:48.215741 25711 evaluate_prediction.cc:136] []Start prediction
+I1105 22:19:48.217968 25711 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:19:48.218343 25711 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:19:48.218698 25761 processor.cc:41] []processor_tid: 25761
+I1105 22:19:48.218961 25762 processor.cc:41] []processor_tid: 25762
+I1105 22:19:48.219213 25763 processor.cc:41] []processor_tid: 25763
+I1105 22:19:48.219381 25764 processor.cc:41] []processor_tid: 25764
+I1105 22:19:48.219532 25765 processor.cc:41] []processor_tid: 25765
+I1105 22:19:48.219698 25766 processor.cc:41] []processor_tid: 25766
+I1105 22:19:48.220008 25768 processor.cc:41] []processor_tid: 25768
+I1105 22:19:48.220005 25767 processor.cc:41] []processor_tid: 25767
+I1105 22:19:48.220144 25769 processor.cc:41] []processor_tid: 25769
+I1105 22:19:48.220254 25770 processor.cc:41] []processor_tid: 25770
+I1105 22:19:48.220324 25771 processor.cc:41] []processor_tid: 25771
+I1105 22:19:48.221179 25772 processor.cc:41] []processor_tid: 25772
+I1105 22:19:48.221312 25773 processor.cc:41] []processor_tid: 25773
+I1105 22:19:48.225215 25774 processor.cc:41] []processor_tid: 25774
+I1105 22:19:48.225528 25775 processor.cc:41] []processor_tid: 25775
+I1105 22:19:48.225699 25776 processor.cc:41] []processor_tid: 25776
+I1105 22:19:48.226148 25711 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:19:48.226186 25711 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:19:48.226224 25711 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:19:48.226249 25711 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:19:48.226267 25711 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:19:48.226305 25711 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:19:48.226325 25711 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:19:48.226344 25711 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:19:48.226387 25711 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:19:48.226430 25711 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:19:48.226465 25711 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:19:48.226500 25711 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:19:48.226537 25711 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:19:48.226567 25711 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:19:48.226584 25711 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:19:48.226600 25711 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:19:48.226828 25711 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:19:48.547514 25711 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:19:48.547581 25711 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:19:48.547593 25711 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:19:59.374395 25794 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:19:59.376346 25794 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:19:59.376363 25794 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:19:59.376619 25794 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:19:59.376628 25794 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:19:59.376633 25794 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:20:01.086760 25794 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:20:01.088910 25794 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:20:01.088932 25794 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:20:01.124476 25794 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:20:01.142971 25794 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:20:01.148490 25794 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:20:01.609680 25794 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:20:04.858800 25794 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:20:04.858949 25794 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:20:04.859369 25794 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:20:04.859411 25794 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:20:04.870654 25794 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:20:04.875192 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:04.875380 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:04.875432 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:04.875473 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:04.875512 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:04.875552 25794 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:20:04.875701 25794 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:20:07.258271 25794 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258316 25794 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258325 25794 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258335 25794 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258344 25794 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258352 25794 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258363 25794 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258370 25794 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258380 25794 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258388 25794 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258397 25794 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258405 25794 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258416 25794 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258425 25794 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258433 25794 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258442 25794 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258451 25794 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258460 25794 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258469 25794 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258478 25794 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258488 25794 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258496 25794 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258505 25794 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258514 25794 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258523 25794 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258533 25794 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258555 25794 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258565 25794 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258574 25794 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258584 25794 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258591 25794 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258600 25794 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258610 25794 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258618 25794 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258628 25794 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258636 25794 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258648 25794 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:20:07.258656 25794 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:20:08.661921 25794 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:20:08.662393 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662441 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662467 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662484 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662503 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662519 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.662725 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662748 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662766 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662784 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662808 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.662827 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.663020 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663043 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663060 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663079 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663098 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663116 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.663311 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663333 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663352 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663368 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663385 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663403 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.663596 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663619 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663642 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663661 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663678 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663695 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.663887 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663909 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663929 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663947 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663977 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.663995 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.664188 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664211 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664228 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664245 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664263 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664280 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.664469 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664492 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664510 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664526 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664544 25794 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:08.664733 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664755 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664773 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664790 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664808 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664825 25794 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:08.664844 25794 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:20:08.668237 25794 evaluate_prediction.cc:136] []Start prediction
+I1105 22:20:08.670702 25794 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:20:08.671069 25794 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:20:08.671407 25846 processor.cc:41] []processor_tid: 25846
+I1105 22:20:08.671595 25847 processor.cc:41] []processor_tid: 25847
+I1105 22:20:08.671792 25848 processor.cc:41] []processor_tid: 25848
+I1105 22:20:08.671990 25849 processor.cc:41] []processor_tid: 25849
+I1105 22:20:08.672188 25850 processor.cc:41] []processor_tid: 25850
+I1105 22:20:08.672384 25851 processor.cc:41] []processor_tid: 25851
+I1105 22:20:08.672642 25852 processor.cc:41] []processor_tid: 25852
+I1105 22:20:08.672657 25853 processor.cc:41] []processor_tid: 25853
+I1105 22:20:08.672781 25854 processor.cc:41] []processor_tid: 25854
+I1105 22:20:08.672883 25855 processor.cc:41] []processor_tid: 25855
+I1105 22:20:08.672945 25856 processor.cc:41] []processor_tid: 25856
+I1105 22:20:08.673118 25858 processor.cc:41] []processor_tid: 25858
+I1105 22:20:08.673216 25859 processor.cc:41] []processor_tid: 25859
+I1105 22:20:08.673324 25860 processor.cc:41] []processor_tid: 25860
+I1105 22:20:08.673411 25861 processor.cc:41] []processor_tid: 25861
+I1105 22:20:08.673529 25862 processor.cc:41] []processor_tid: 25862
+I1105 22:20:08.674019 25794 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:20:08.674054 25794 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:20:08.674073 25794 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:20:08.674109 25794 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:20:08.674127 25794 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:20:08.674146 25794 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:20:08.674166 25794 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:20:08.674183 25794 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:20:08.674203 25794 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:20:08.674229 25794 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:20:08.674293 25794 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:20:08.674325 25794 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:20:08.674346 25794 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:20:08.674365 25794 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:20:08.674386 25794 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:20:08.674405 25794 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:20:08.674671 25794 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:20:08.982112 25794 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:20:08.982179 25794 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:20:08.982192 25794 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:20:19.561947 25880 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:20:19.564216 25880 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:20:19.564234 25880 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:20:19.564489 25880 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:20:19.564499 25880 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:20:19.564504 25880 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:20:21.275746 25880 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:20:21.277257 25880 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:20:21.277276 25880 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:20:21.305881 25880 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:20:21.320704 25880 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:20:21.325117 25880 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:20:21.710736 25880 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:20:24.926807 25880 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:20:24.926950 25880 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:20:24.926957 25880 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:20:24.926961 25880 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:20:24.932744 25880 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:20:24.934748 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:24.934828 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:24.934850 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:24.934868 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:24.934886 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:24.934904 25880 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:20:24.934979 25880 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:20:27.308995 25880 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309072 25880 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309084 25880 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309103 25880 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309123 25880 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309135 25880 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309147 25880 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309157 25880 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309168 25880 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309178 25880 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309190 25880 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309201 25880 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309219 25880 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309231 25880 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309239 25880 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309248 25880 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309262 25880 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309270 25880 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309279 25880 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309288 25880 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309298 25880 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309307 25880 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309317 25880 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309326 25880 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309336 25880 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309345 25880 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309355 25880 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309365 25880 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309374 25880 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309384 25880 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309394 25880 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309404 25880 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309413 25880 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309422 25880 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309437 25880 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309446 25880 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309459 25880 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:20:27.309468 25880 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:20:28.713554 25880 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:20:28.713973 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714020 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714044 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714062 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714079 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714097 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.714310 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714334 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714351 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714368 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714388 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714406 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.714602 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714637 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714654 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714671 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714689 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714705 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.714898 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714921 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714938 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714956 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714972 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.714988 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.715179 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715200 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715224 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715241 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715258 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715276 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.715466 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715487 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715504 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715521 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715538 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715555 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.715744 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715766 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715785 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715801 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715817 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.715833 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.716020 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716042 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716058 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716075 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716094 25880 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:28.716282 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716303 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716320 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716337 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716353 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716372 25880 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:28.716389 25880 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:20:28.719790 25880 evaluate_prediction.cc:136] []Start prediction
+I1105 22:20:28.722311 25880 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:20:28.722683 25880 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:20:28.723085 25928 processor.cc:41] []processor_tid: 25928
+I1105 22:20:28.723280 25929 processor.cc:41] []processor_tid: 25929
+I1105 22:20:28.723428 25932 processor.cc:41] []processor_tid: 25932
+I1105 22:20:28.723592 25933 processor.cc:41] []processor_tid: 25933
+I1105 22:20:28.723742 25934 processor.cc:41] []processor_tid: 25934
+I1105 22:20:28.723917 25935 processor.cc:41] []processor_tid: 25935
+I1105 22:20:28.724200 25936 processor.cc:41] []processor_tid: 25936
+I1105 22:20:28.724267 25937 processor.cc:41] []processor_tid: 25937
+I1105 22:20:28.724340 25938 processor.cc:41] []processor_tid: 25938
+I1105 22:20:28.724489 25939 processor.cc:41] []processor_tid: 25939
+I1105 22:20:28.725180 25940 processor.cc:41] []processor_tid: 25940
+I1105 22:20:28.725423 25941 processor.cc:41] []processor_tid: 25941
+I1105 22:20:28.725622 25942 processor.cc:41] []processor_tid: 25942
+I1105 22:20:28.725705 25943 processor.cc:41] []processor_tid: 25943
+I1105 22:20:28.725797 25944 processor.cc:41] []processor_tid: 25944
+I1105 22:20:28.725926 25945 processor.cc:41] []processor_tid: 25945
+I1105 22:20:28.726413 25880 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:20:28.726449 25880 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:20:28.726487 25880 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:20:28.726508 25880 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:20:28.726526 25880 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:20:28.726562 25880 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:20:28.726610 25880 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:20:28.726629 25880 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:20:28.726646 25880 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:20:28.726687 25880 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:20:28.726711 25880 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:20:28.726745 25880 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:20:28.726770 25880 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:20:28.726795 25880 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:20:28.726817 25880 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:20:28.726836 25880 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:20:28.727154 25880 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:20:29.048338 25880 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:20:29.048403 25880 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:20:29.048415 25880 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:20:39.814954 25963 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:20:39.816866 25963 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:20:39.816880 25963 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:20:39.817142 25963 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:20:39.817152 25963 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:20:39.817157 25963 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:20:41.554759 25963 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:20:41.556170 25963 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:20:41.556185 25963 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:20:41.584337 25963 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:20:41.598910 25963 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:20:41.603348 25963 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:20:41.988482 25963 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:20:45.255136 25963 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:20:45.255290 25963 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:20:45.255913 25963 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:20:45.255961 25963 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:20:45.273128 25963 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:20:45.277104 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:45.277230 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:45.277271 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:45.277319 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:45.277354 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:45.277387 25963 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:20:45.277503 25963 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:20:47.715874 25963 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715930 25963 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715943 25963 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715952 25963 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715960 25963 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715970 25963 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715978 25963 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715987 25963 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:20:47.715996 25963 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716004 25963 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716012 25963 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716020 25963 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716027 25963 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716037 25963 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716044 25963 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716053 25963 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716063 25963 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716071 25963 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716080 25963 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716089 25963 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716100 25963 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716109 25963 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716117 25963 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716126 25963 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716135 25963 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716143 25963 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716152 25963 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716161 25963 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716171 25963 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716179 25963 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716187 25963 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716195 25963 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716203 25963 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716212 25963 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716235 25963 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716244 25963 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716255 25963 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:20:47.716264 25963 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:20:49.206058 25963 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:20:49.206576 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206632 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206656 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206676 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206694 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206713 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.206938 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206962 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.206981 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207000 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207026 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207044 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.207254 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207280 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207299 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207319 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207336 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207355 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.207559 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207584 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207603 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207621 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207643 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207660 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.207868 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207892 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207924 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207943 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207962 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.207981 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.208189 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208212 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208231 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208250 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208271 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208289 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.208490 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208514 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208534 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208551 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208570 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208590 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.208791 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208814 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208832 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208863 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.208882 25963 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:20:49.209096 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.209122 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.209141 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.209161 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.209180 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.209198 25963 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:20:49.209216 25963 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:20:49.212831 25963 evaluate_prediction.cc:136] []Start prediction
+I1105 22:20:49.215379 25963 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:20:49.215771 25963 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:20:49.216249 26024 processor.cc:41] []processor_tid: 26024
+I1105 22:20:49.216428 26025 processor.cc:41] []processor_tid: 26025
+I1105 22:20:49.216591 26026 processor.cc:41] []processor_tid: 26026
+I1105 22:20:49.216753 26027 processor.cc:41] []processor_tid: 26027
+I1105 22:20:49.216866 26028 processor.cc:41] []processor_tid: 26028
+I1105 22:20:49.217064 26029 processor.cc:41] []processor_tid: 26029
+I1105 22:20:49.217242 26030 processor.cc:41] []processor_tid: 26030
+I1105 22:20:49.217316 26031 processor.cc:41] []processor_tid: 26031
+I1105 22:20:49.217386 26032 processor.cc:41] []processor_tid: 26032
+I1105 22:20:49.217607 26033 processor.cc:41] []processor_tid: 26033
+I1105 22:20:49.217730 26034 processor.cc:41] []processor_tid: 26034
+I1105 22:20:49.217809 26035 processor.cc:41] []processor_tid: 26035
+I1105 22:20:49.217936 26036 processor.cc:41] []processor_tid: 26036
+I1105 22:20:49.218081 26037 processor.cc:41] []processor_tid: 26037
+I1105 22:20:49.221184 26038 processor.cc:41] []processor_tid: 26038
+I1105 22:20:49.221349 26039 processor.cc:41] []processor_tid: 26039
+I1105 22:20:49.221850 25963 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:20:49.221885 25963 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:20:49.221909 25963 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:20:49.221930 25963 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:20:49.221966 25963 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:20:49.221987 25963 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:20:49.222007 25963 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:20:49.222045 25963 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:20:49.222065 25963 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:20:49.222088 25963 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:20:49.222113 25963 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:20:49.222189 25963 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:20:49.222208 25963 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:20:49.222227 25963 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:20:49.222261 25963 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:20:49.222283 25963 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:20:49.222545 25963 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:20:49.547075 25963 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:20:49.547138 25963 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:20:49.547152 25963 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:21:00.056277 26056 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:21:00.058329 26056 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:21:00.058346 26056 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:21:00.058599 26056 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:21:00.058619 26056 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:21:00.058625 26056 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:21:01.811089 26056 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:21:01.812525 26056 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:21:01.812539 26056 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:21:01.840627 26056 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:21:01.855125 26056 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:21:01.859577 26056 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:21:02.242728 26056 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:21:05.453375 26056 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:21:05.453516 26056 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:21:05.453522 26056 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:21:05.453526 26056 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:21:05.462246 26056 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:21:05.464210 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:05.464287 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:05.464308 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:05.464324 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:05.464341 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:05.464359 26056 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:21:05.464430 26056 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:21:07.842403 26056 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842449 26056 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842459 26056 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842468 26056 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842478 26056 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842487 26056 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842496 26056 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842505 26056 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842516 26056 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842525 26056 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842535 26056 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842543 26056 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842552 26056 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842561 26056 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842571 26056 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842579 26056 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842589 26056 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842599 26056 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842608 26056 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842628 26056 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842636 26056 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842645 26056 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842654 26056 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842664 26056 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842674 26056 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842682 26056 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842695 26056 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842705 26056 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842715 26056 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842723 26056 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842733 26056 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842742 26056 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842751 26056 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842761 26056 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842772 26056 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842780 26056 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842792 26056 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:21:07.842801 26056 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:21:09.248725 26056 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:21:09.249150 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249199 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249222 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249239 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249258 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249274 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.249490 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249513 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249531 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249548 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249572 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249588 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.249783 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249806 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249825 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249842 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249858 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.249876 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.250072 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250094 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250111 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250128 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250145 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250161 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.250372 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250396 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250418 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250437 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250453 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250470 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.250661 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250684 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250700 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250717 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250735 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250751 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.250941 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250962 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250979 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.250996 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251013 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251030 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.251219 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251242 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251260 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251276 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251293 26056 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:09.251479 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251502 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251518 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251535 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251552 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251569 26056 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:09.251586 26056 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:21:09.255031 26056 evaluate_prediction.cc:136] []Start prediction
+I1105 22:21:09.257573 26056 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:21:09.257953 26056 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:21:09.258311 26111 processor.cc:41] []processor_tid: 26111
+I1105 22:21:09.258417 26112 processor.cc:41] []processor_tid: 26112
+I1105 22:21:09.258579 26113 processor.cc:41] []processor_tid: 26113
+I1105 22:21:09.258750 26114 processor.cc:41] []processor_tid: 26114
+I1105 22:21:09.258986 26115 processor.cc:41] []processor_tid: 26115
+I1105 22:21:09.259172 26116 processor.cc:41] []processor_tid: 26116
+I1105 22:21:09.259454 26119 processor.cc:41] []processor_tid: 26119
+I1105 22:21:09.259452 26118 processor.cc:41] []processor_tid: 26118
+I1105 22:21:09.259572 26120 processor.cc:41] []processor_tid: 26120
+I1105 22:21:09.259685 26121 processor.cc:41] []processor_tid: 26121
+I1105 22:21:09.261284 26122 processor.cc:41] []processor_tid: 26122
+I1105 22:21:09.262403 26124 processor.cc:41] []processor_tid: 26124
+I1105 22:21:09.262410 26123 processor.cc:41] []processor_tid: 26123
+I1105 22:21:09.262567 26125 processor.cc:41] []processor_tid: 26125
+I1105 22:21:09.262660 26126 processor.cc:41] []processor_tid: 26126
+I1105 22:21:09.262756 26127 processor.cc:41] []processor_tid: 26127
+I1105 22:21:09.263255 26056 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:21:09.263290 26056 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:21:09.263326 26056 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:21:09.263346 26056 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:21:09.263361 26056 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:21:09.263396 26056 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:21:09.263427 26056 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:21:09.263475 26056 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:21:09.263511 26056 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:21:09.263530 26056 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:21:09.263564 26056 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:21:09.263603 26056 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:21:09.263622 26056 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:21:09.263656 26056 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:21:09.263686 26056 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:21:09.263706 26056 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:21:09.263944 26056 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:21:09.587345 26056 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:21:09.587414 26056 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:21:09.587425 26056 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:21:20.257660 26145 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:21:20.259626 26145 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:21:20.259640 26145 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:21:20.259891 26145 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:21:20.259900 26145 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:21:20.259905 26145 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:21:21.944371 26145 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:21:21.945816 26145 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:21:21.945832 26145 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:21:21.973843 26145 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:21:21.988430 26145 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:21:21.992831 26145 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:21:22.425817 26145 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:21:25.683699 26145 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:21:25.683851 26145 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:21:25.684484 26145 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:21:25.684525 26145 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:21:25.703439 26145 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:21:25.707259 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:25.707397 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:25.707444 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:25.707484 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:25.707525 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:25.707563 26145 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:21:25.707693 26145 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:21:28.200325 26145 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200388 26145 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200399 26145 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200409 26145 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200429 26145 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200439 26145 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200449 26145 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200459 26145 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200469 26145 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200479 26145 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200489 26145 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200497 26145 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200506 26145 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200515 26145 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200525 26145 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200536 26145 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200548 26145 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200558 26145 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200568 26145 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200578 26145 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200588 26145 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200598 26145 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200606 26145 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200616 26145 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200626 26145 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200635 26145 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200645 26145 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200655 26145 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200665 26145 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200675 26145 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200683 26145 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200696 26145 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200706 26145 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200716 26145 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200726 26145 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200736 26145 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200747 26145 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:21:28.200757 26145 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:21:29.623024 26145 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:21:29.623493 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623548 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623584 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623603 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623622 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623641 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.623864 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623889 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623908 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623927 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623955 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.623973 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.624178 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624202 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624222 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624240 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624259 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624279 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.624480 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624503 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624522 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624541 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624559 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624578 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.624779 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624802 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624830 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624850 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624868 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.624886 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.625097 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625123 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625141 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625160 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625180 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625198 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.625401 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625425 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625444 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625463 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625481 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625500 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.625702 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625727 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625746 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625764 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.625783 26145 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:29.625983 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.626006 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.626024 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.626044 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.626062 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.626081 26145 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:29.626101 26145 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:21:29.629675 26145 evaluate_prediction.cc:136] []Start prediction
+I1105 22:21:29.632179 26145 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:21:29.632573 26145 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:21:29.632864 26202 processor.cc:41] []processor_tid: 26202
+I1105 22:21:29.633080 26203 processor.cc:41] []processor_tid: 26203
+I1105 22:21:29.633234 26204 processor.cc:41] []processor_tid: 26204
+I1105 22:21:29.633406 26205 processor.cc:41] []processor_tid: 26205
+I1105 22:21:29.633563 26206 processor.cc:41] []processor_tid: 26206
+I1105 22:21:29.633723 26207 processor.cc:41] []processor_tid: 26207
+I1105 22:21:29.633996 26208 processor.cc:41] []processor_tid: 26208
+I1105 22:21:29.634004 26209 processor.cc:41] []processor_tid: 26209
+I1105 22:21:29.634130 26210 processor.cc:41] []processor_tid: 26210
+I1105 22:21:29.634196 26211 processor.cc:41] []processor_tid: 26211
+I1105 22:21:29.634312 26212 processor.cc:41] []processor_tid: 26212
+I1105 22:21:29.634423 26213 processor.cc:41] []processor_tid: 26213
+I1105 22:21:29.634531 26214 processor.cc:41] []processor_tid: 26214
+I1105 22:21:29.637166 26215 processor.cc:41] []processor_tid: 26215
+I1105 22:21:29.637286 26216 processor.cc:41] []processor_tid: 26216
+I1105 22:21:29.637400 26217 processor.cc:41] []processor_tid: 26217
+I1105 22:21:29.637897 26145 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:21:29.637934 26145 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:21:29.637956 26145 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:21:29.637976 26145 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:21:29.638011 26145 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:21:29.638063 26145 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:21:29.638098 26145 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:21:29.638118 26145 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:21:29.638156 26145 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:21:29.638182 26145 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:21:29.638222 26145 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:21:29.638259 26145 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:21:29.638293 26145 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:21:29.638312 26145 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:21:29.638346 26145 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:21:29.638377 26145 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:21:29.638612 26145 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:21:29.961530 26145 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:21:29.961601 26145 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:21:29.961613 26145 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:21:40.481920 26234 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:21:40.483970 26234 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:21:40.483986 26234 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:21:40.484266 26234 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:21:40.484277 26234 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:21:40.484282 26234 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:21:42.179214 26234 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:21:42.180642 26234 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:21:42.180658 26234 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:21:42.208602 26234 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:21:42.223217 26234 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:21:42.227614 26234 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:21:42.616737 26234 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:21:45.819602 26234 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:21:45.819751 26234 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:21:45.820394 26234 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:21:45.820443 26234 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:21:45.838495 26234 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:21:45.842324 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:45.842468 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:45.842515 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:45.842555 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:45.842594 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:45.842634 26234 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:21:45.842759 26234 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:21:48.214850 26234 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214897 26234 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214906 26234 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214915 26234 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214924 26234 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214932 26234 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214941 26234 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214948 26234 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214956 26234 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214965 26234 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214973 26234 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214982 26234 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214990 26234 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:21:48.214998 26234 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215008 26234 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215016 26234 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215025 26234 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215034 26234 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215044 26234 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215054 26234 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215063 26234 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215072 26234 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215080 26234 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215090 26234 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215098 26234 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215106 26234 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215126 26234 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215134 26234 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215143 26234 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215152 26234 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215160 26234 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215169 26234 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215178 26234 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215189 26234 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215200 26234 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215209 26234 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215220 26234 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:21:48.215229 26234 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:21:49.646397 26234 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:21:49.646817 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.646863 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.646888 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.646905 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.646922 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.646939 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.647145 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647168 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647186 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647203 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647224 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647243 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.647435 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647457 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647476 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647492 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647511 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647527 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.647720 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647743 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647761 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647778 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647795 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.647812 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.648005 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648028 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648051 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648069 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648087 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648102 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.648294 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648316 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648334 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648350 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648368 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648397 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.648612 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648636 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648655 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648672 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648690 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648708 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.648910 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648932 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648950 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648968 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.648986 26234 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:21:49.649194 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.649220 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.649240 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.649257 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.649276 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.649293 26234 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:21:49.649312 26234 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:21:49.652751 26234 evaluate_prediction.cc:136] []Start prediction
+I1105 22:21:49.655230 26234 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:21:49.655601 26234 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:21:49.655953 26285 processor.cc:41] []processor_tid: 26285
+I1105 22:21:49.656145 26286 processor.cc:41] []processor_tid: 26286
+I1105 22:21:49.656296 26287 processor.cc:41] []processor_tid: 26287
+I1105 22:21:49.656493 26288 processor.cc:41] []processor_tid: 26288
+I1105 22:21:49.656596 26289 processor.cc:41] []processor_tid: 26289
+I1105 22:21:49.656782 26290 processor.cc:41] []processor_tid: 26290
+I1105 22:21:49.657063 26292 processor.cc:41] []processor_tid: 26292
+I1105 22:21:49.657056 26291 processor.cc:41] []processor_tid: 26291
+I1105 22:21:49.657177 26293 processor.cc:41] []processor_tid: 26293
+I1105 22:21:49.657280 26294 processor.cc:41] []processor_tid: 26294
+I1105 22:21:49.657388 26295 processor.cc:41] []processor_tid: 26295
+I1105 22:21:49.657559 26296 processor.cc:41] []processor_tid: 26296
+I1105 22:21:49.657685 26297 processor.cc:41] []processor_tid: 26297
+I1105 22:21:49.657791 26298 processor.cc:41] []processor_tid: 26298
+I1105 22:21:49.661278 26299 processor.cc:41] []processor_tid: 26299
+I1105 22:21:49.665199 26300 processor.cc:41] []processor_tid: 26300
+I1105 22:21:49.665686 26234 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:21:49.665722 26234 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:21:49.665742 26234 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:21:49.665779 26234 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:21:49.665797 26234 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:21:49.665815 26234 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:21:49.665848 26234 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:21:49.665923 26234 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:21:49.665943 26234 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:21:49.665962 26234 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:21:49.666004 26234 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:21:49.666036 26234 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:21:49.666074 26234 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:21:49.666110 26234 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:21:49.666139 26234 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:21:49.666172 26234 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:21:49.666393 26234 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:21:49.984998 26234 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:21:49.985078 26234 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:21:49.985090 26234 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:22:00.712059 26317 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:22:00.714495 26317 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:22:00.714514 26317 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:22:00.714828 26317 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:22:00.714840 26317 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:22:00.714846 26317 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:22:02.478308 26317 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:22:02.479866 26317 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:22:02.479882 26317 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:22:02.508167 26317 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:22:02.523231 26317 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:22:02.527768 26317 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:22:02.909823 26317 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:22:06.019934 26317 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:22:06.020090 26317 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:22:06.022660 26317 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:22:06.022699 26317 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:22:06.042130 26317 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:22:06.045624 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:06.045754 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:06.045799 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:06.045837 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:06.045876 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:06.045913 26317 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:22:06.046034 26317 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:22:08.420011 26317 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420053 26317 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420063 26317 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420073 26317 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420085 26317 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420094 26317 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420102 26317 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420110 26317 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420118 26317 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420127 26317 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420135 26317 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420145 26317 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420164 26317 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420172 26317 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420181 26317 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420190 26317 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420200 26317 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420209 26317 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420218 26317 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420228 26317 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420235 26317 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420244 26317 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420255 26317 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420264 26317 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420274 26317 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420282 26317 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420291 26317 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420300 26317 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420310 26317 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420318 26317 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420327 26317 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420336 26317 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420344 26317 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420352 26317 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420364 26317 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420377 26317 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420389 26317 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:22:08.420397 26317 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:22:09.827308 26317 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:22:09.827728 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.827775 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.827796 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.827814 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.827833 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.827852 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.828064 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828088 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828105 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828122 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828145 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828162 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.828358 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828392 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828410 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828428 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828446 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828464 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.828655 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828677 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828696 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828713 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828732 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828748 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.828938 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828960 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.828985 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829003 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829026 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829046 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.829242 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829264 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829282 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829300 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829319 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829337 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.829527 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829550 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829567 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829584 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829604 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829622 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.829813 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829835 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829852 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829870 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.829887 26317 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:09.830076 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.830099 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.830116 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.830133 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.830152 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.830168 26317 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:09.830186 26317 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:22:09.833614 26317 evaluate_prediction.cc:136] []Start prediction
+I1105 22:22:09.836107 26317 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:22:09.836477 26317 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:22:09.836809 26370 processor.cc:41] []processor_tid: 26370
+I1105 22:22:09.836974 26371 processor.cc:41] []processor_tid: 26371
+I1105 22:22:09.837138 26372 processor.cc:41] []processor_tid: 26372
+I1105 22:22:09.837273 26373 processor.cc:41] []processor_tid: 26373
+I1105 22:22:09.837433 26374 processor.cc:41] []processor_tid: 26374
+I1105 22:22:09.837616 26375 processor.cc:41] []processor_tid: 26375
+I1105 22:22:09.837883 26377 processor.cc:41] []processor_tid: 26377
+I1105 22:22:09.837900 26376 processor.cc:41] []processor_tid: 26376
+I1105 22:22:09.838017 26378 processor.cc:41] []processor_tid: 26378
+I1105 22:22:09.838114 26379 processor.cc:41] []processor_tid: 26379
+I1105 22:22:09.838261 26380 processor.cc:41] []processor_tid: 26380
+I1105 22:22:09.841306 26381 processor.cc:41] []processor_tid: 26381
+I1105 22:22:09.841454 26382 processor.cc:41] []processor_tid: 26382
+I1105 22:22:09.841542 26383 processor.cc:41] []processor_tid: 26383
+I1105 22:22:09.841640 26384 processor.cc:41] []processor_tid: 26384
+I1105 22:22:09.841754 26385 processor.cc:41] []processor_tid: 26385
+I1105 22:22:09.842221 26317 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:22:09.842255 26317 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:22:09.842291 26317 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:22:09.842309 26317 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:22:09.842324 26317 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:22:09.842381 26317 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:22:09.842420 26317 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:22:09.842456 26317 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:22:09.842478 26317 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:22:09.842504 26317 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:22:09.842525 26317 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:22:09.842597 26317 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:22:09.842617 26317 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:22:09.842646 26317 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:22:09.842682 26317 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:22:09.842698 26317 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:22:09.842913 26317 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:22:10.162123 26317 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:22:10.162191 26317 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:22:10.162204 26317 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:22:20.937054 26403 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:22:20.939013 26403 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:22:20.939030 26403 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:22:20.939286 26403 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:22:20.939296 26403 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:22:20.939302 26403 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:22:22.647950 26403 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:22:22.649521 26403 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:22:22.649538 26403 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:22:22.678467 26403 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:22:22.693653 26403 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:22:22.698223 26403 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:22:23.089831 26403 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:22:26.313082 26403 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:22:26.313251 26403 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:22:26.317214 26403 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:22:26.317251 26403 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:22:26.334033 26403 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:22:26.337775 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:26.337920 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:26.337970 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:26.338032 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:26.338073 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:26.338112 26403 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:22:26.338238 26403 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:22:28.708025 26403 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708070 26403 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708081 26403 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708089 26403 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708098 26403 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708107 26403 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708117 26403 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708125 26403 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708133 26403 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708142 26403 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708153 26403 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708161 26403 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708170 26403 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708179 26403 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708187 26403 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708196 26403 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708205 26403 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708214 26403 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708223 26403 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708232 26403 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708241 26403 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708250 26403 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708258 26403 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708267 26403 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708276 26403 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708284 26403 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708293 26403 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708302 26403 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708314 26403 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708323 26403 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708333 26403 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708341 26403 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708350 26403 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708360 26403 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708381 26403 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708390 26403 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708403 26403 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:22:28.708412 26403 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:22:30.136237 26403 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:22:30.136656 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.136701 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.136723 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.136741 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.136759 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.136776 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.136981 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137004 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137032 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137050 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137069 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137087 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.137284 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137305 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137324 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137342 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137359 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137377 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.137568 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137590 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137609 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137625 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137643 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137661 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.137854 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137877 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137900 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137918 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137935 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.137953 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.138144 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138165 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138183 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138200 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138218 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138236 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.138424 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138447 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138464 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138481 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138499 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138516 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.138707 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138731 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138748 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138780 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.138798 26403 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:30.138988 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.139009 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.139027 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.139045 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.139062 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.139081 26403 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:30.139097 26403 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:22:30.142493 26403 evaluate_prediction.cc:136] []Start prediction
+I1105 22:22:30.144969 26403 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:22:30.145351 26403 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:22:30.145658 26450 processor.cc:41] []processor_tid: 26450
+I1105 22:22:30.146008 26451 processor.cc:41] []processor_tid: 26451
+I1105 22:22:30.146123 26452 processor.cc:41] []processor_tid: 26452
+I1105 22:22:30.146308 26453 processor.cc:41] []processor_tid: 26453
+I1105 22:22:30.146458 26454 processor.cc:41] []processor_tid: 26454
+I1105 22:22:30.146664 26455 processor.cc:41] []processor_tid: 26455
+I1105 22:22:30.146816 26456 processor.cc:41] []processor_tid: 26456
+I1105 22:22:30.146939 26457 processor.cc:41] []processor_tid: 26457
+I1105 22:22:30.147078 26458 processor.cc:41] []processor_tid: 26458
+I1105 22:22:30.147220 26459 processor.cc:41] []processor_tid: 26459
+I1105 22:22:30.147284 26460 processor.cc:41] []processor_tid: 26460
+I1105 22:22:30.147414 26461 processor.cc:41] []processor_tid: 26461
+I1105 22:22:30.147503 26462 processor.cc:41] []processor_tid: 26462
+I1105 22:22:30.149160 26463 processor.cc:41] []processor_tid: 26463
+I1105 22:22:30.153177 26464 processor.cc:41] []processor_tid: 26464
+I1105 22:22:30.153414 26465 processor.cc:41] []processor_tid: 26465
+I1105 22:22:30.153892 26403 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:22:30.153928 26403 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:22:30.153946 26403 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:22:30.153965 26403 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:22:30.153997 26403 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:22:30.154060 26403 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:22:30.154083 26403 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:22:30.154099 26403 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:22:30.154140 26403 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:22:30.154162 26403 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:22:30.154214 26403 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:22:30.154253 26403 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:22:30.154278 26403 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:22:30.154304 26403 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:22:30.154331 26403 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:22:30.154352 26403 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:22:30.154562 26403 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:22:30.472939 26403 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:22:30.473006 26403 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:22:30.473027 26403 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:22:41.177903 26487 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:22:41.179885 26487 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:22:41.179901 26487 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:22:41.180161 26487 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:22:41.180181 26487 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:22:41.180187 26487 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:22:42.875272 26487 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:22:42.876821 26487 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:22:42.876838 26487 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:22:42.905279 26487 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:22:42.920006 26487 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:22:42.924600 26487 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:22:43.326644 26487 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:22:46.583426 26487 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:22:46.583575 26487 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:22:46.583581 26487 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:22:46.583585 26487 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:22:46.592092 26487 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:22:46.594159 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:46.594249 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:46.594270 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:46.594287 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:46.594305 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:46.594322 26487 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:22:46.594393 26487 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:22:48.977783 26487 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977843 26487 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977854 26487 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977864 26487 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977872 26487 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977882 26487 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977895 26487 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977903 26487 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977912 26487 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977921 26487 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977931 26487 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977939 26487 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977948 26487 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977957 26487 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977967 26487 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977975 26487 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977984 26487 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:22:48.977994 26487 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978003 26487 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978022 26487 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978034 26487 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978044 26487 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978053 26487 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978061 26487 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978070 26487 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978080 26487 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978089 26487 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978098 26487 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978108 26487 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978116 26487 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978127 26487 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978135 26487 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978144 26487 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978153 26487 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978163 26487 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978173 26487 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978186 26487 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:22:48.978195 26487 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:22:50.371930 26487 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:22:50.372299 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372345 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372367 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372385 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372402 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372421 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.372625 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372648 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372666 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372684 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372704 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372720 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.372917 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372941 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372957 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372974 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.372992 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373008 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.373209 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373234 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373250 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373267 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373284 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373301 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.373505 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373528 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373551 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373569 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373586 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373602 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.373795 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373817 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373834 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373852 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373868 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.373885 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.374075 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374097 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374114 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374131 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374148 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374166 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.374353 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374375 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374392 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374409 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374426 26487 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:22:50.374614 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374636 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374653 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374670 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374686 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374703 26487 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:22:50.374720 26487 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:22:50.377830 26487 evaluate_prediction.cc:136] []Start prediction
+I1105 22:22:50.380321 26487 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:22:50.380697 26487 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:22:50.381122 26534 processor.cc:41] []processor_tid: 26534
+I1105 22:22:50.381261 26535 processor.cc:41] []processor_tid: 26535
+I1105 22:22:50.381501 26536 processor.cc:41] []processor_tid: 26536
+I1105 22:22:50.381665 26537 processor.cc:41] []processor_tid: 26537
+I1105 22:22:50.381827 26538 processor.cc:41] []processor_tid: 26538
+I1105 22:22:50.382011 26539 processor.cc:41] []processor_tid: 26539
+I1105 22:22:50.382192 26540 processor.cc:41] []processor_tid: 26540
+I1105 22:22:50.382303 26541 processor.cc:41] []processor_tid: 26541
+I1105 22:22:50.382377 26542 processor.cc:41] []processor_tid: 26542
+I1105 22:22:50.382588 26543 processor.cc:41] []processor_tid: 26543
+I1105 22:22:50.382714 26544 processor.cc:41] []processor_tid: 26544
+I1105 22:22:50.382829 26545 processor.cc:41] []processor_tid: 26545
+I1105 22:22:50.385157 26546 processor.cc:41] []processor_tid: 26546
+I1105 22:22:50.389266 26547 processor.cc:41] []processor_tid: 26547
+I1105 22:22:50.389410 26548 processor.cc:41] []processor_tid: 26548
+I1105 22:22:50.389545 26549 processor.cc:41] []processor_tid: 26549
+I1105 22:22:50.390025 26487 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:22:50.390061 26487 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:22:50.390100 26487 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:22:50.390143 26487 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:22:50.390163 26487 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:22:50.390183 26487 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:22:50.390215 26487 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:22:50.390236 26487 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:22:50.390303 26487 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:22:50.390326 26487 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:22:50.390362 26487 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:22:50.390404 26487 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:22:50.390437 26487 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:22:50.390457 26487 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:22:50.390491 26487 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:22:50.390513 26487 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:22:50.390763 26487 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:22:50.718430 26487 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:22:50.718500 26487 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:22:50.718513 26487 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:23:01.406656 26566 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:23:01.408640 26566 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:23:01.408654 26566 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:23:01.408913 26566 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:23:01.408922 26566 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:23:01.408928 26566 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:23:03.132896 26566 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:23:03.134356 26566 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:23:03.134372 26566 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:23:03.165818 26566 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:23:03.180402 26566 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:23:03.184751 26566 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:23:03.597978 26566 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:23:06.850944 26566 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:23:06.851114 26566 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:23:06.855051 26566 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:23:06.855089 26566 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:23:06.874639 26566 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:23:06.878415 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:06.878552 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:06.878602 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:06.878646 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:06.878688 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:06.878731 26566 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:23:06.878861 26566 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:23:09.248066 26566 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248122 26566 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248133 26566 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248143 26566 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248164 26566 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248172 26566 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248183 26566 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248191 26566 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248200 26566 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248209 26566 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248217 26566 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248226 26566 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248235 26566 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248243 26566 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248252 26566 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248265 26566 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248273 26566 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248282 26566 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248291 26566 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248301 26566 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248311 26566 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248318 26566 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248327 26566 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248337 26566 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248344 26566 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248353 26566 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248363 26566 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248373 26566 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248381 26566 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248389 26566 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248401 26566 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248409 26566 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248419 26566 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248427 26566 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248437 26566 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248445 26566 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248456 26566 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:23:09.248466 26566 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:23:10.639875 26566 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:23:10.640230 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640273 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640296 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640331 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640349 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640367 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.640583 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640607 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640625 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640641 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640662 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640679 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.640872 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640897 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640914 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640933 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640949 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.640966 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.641165 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641188 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641206 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641223 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641242 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641259 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.641449 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641471 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641492 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641510 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641526 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641543 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.641736 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641758 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641777 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641793 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641810 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.641829 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.642019 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642041 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642058 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642076 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642093 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642110 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.642297 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642319 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642336 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642354 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642371 26566 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:10.642558 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642580 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642597 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642614 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642632 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642648 26566 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:10.642666 26566 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:23:10.645767 26566 evaluate_prediction.cc:136] []Start prediction
+I1105 22:23:10.648258 26566 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:23:10.648645 26566 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:23:10.649060 26619 processor.cc:41] []processor_tid: 26619
+I1105 22:23:10.649250 26620 processor.cc:41] []processor_tid: 26620
+I1105 22:23:10.649400 26621 processor.cc:41] []processor_tid: 26621
+I1105 22:23:10.649574 26622 processor.cc:41] []processor_tid: 26622
+I1105 22:23:10.649725 26623 processor.cc:41] []processor_tid: 26623
+I1105 22:23:10.649899 26626 processor.cc:41] []processor_tid: 26626
+I1105 22:23:10.650188 26627 processor.cc:41] []processor_tid: 26627
+I1105 22:23:10.650211 26628 processor.cc:41] []processor_tid: 26628
+I1105 22:23:10.650315 26629 processor.cc:41] []processor_tid: 26629
+I1105 22:23:10.650458 26630 processor.cc:41] []processor_tid: 26630
+I1105 22:23:10.650552 26631 processor.cc:41] []processor_tid: 26631
+I1105 22:23:10.653286 26632 processor.cc:41] []processor_tid: 26632
+I1105 22:23:10.653432 26633 processor.cc:41] []processor_tid: 26633
+I1105 22:23:10.653524 26634 processor.cc:41] []processor_tid: 26634
+I1105 22:23:10.657171 26635 processor.cc:41] []processor_tid: 26635
+I1105 22:23:10.657371 26636 processor.cc:41] []processor_tid: 26636
+I1105 22:23:10.657889 26566 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:23:10.657924 26566 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:23:10.657944 26566 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:23:10.657981 26566 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:23:10.657999 26566 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:23:10.658035 26566 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:23:10.658056 26566 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:23:10.658074 26566 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:23:10.658200 26566 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:23:10.658221 26566 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:23:10.658248 26566 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:23:10.658275 26566 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:23:10.658308 26566 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:23:10.658326 26566 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:23:10.658345 26566 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:23:10.658375 26566 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:23:10.658612 26566 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:23:10.977919 26566 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:23:10.977986 26566 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:23:10.977998 26566 evaluate_prediction.cc:149] []1 0.819953
+[mWARNING: Logging before InitGoogleLogging() is written to STDERR
+[0;33mW1105 22:23:21.632479 26653 evaluate_prediction.cc:40] []ego obstacle id-1
+[mI1105 22:23:21.634625 26653 container_manager.cc:65] [prediction]Container [11] is registered.
+I1105 22:23:21.634645 26653 container_manager.cc:65] [prediction]Container [5] is registered.
+I1105 22:23:21.634927 26653 mlp_evaluator.cc:365] [prediction]Succeeded in loading the model file: /apollo/modules/prediction/data/mlp_vehicle_model.bin.
+I1105 22:23:21.634938 26653 evaluator_manager.cc:420] [prediction]Evaluator [0] is registered.
+I1105 22:23:21.634943 26653 evaluator_manager.cc:420] [prediction]Evaluator [2] is registered.
+I1105 22:23:23.381381 26653 evaluator_manager.cc:420] [prediction]Evaluator [3] is registered.
+I1105 22:23:23.382941 26653 evaluator_manager.cc:420] [prediction]Evaluator [4] is registered.
+I1105 22:23:23.382956 26653 evaluator_manager.cc:420] [prediction]Evaluator [5] is registered.
+I1105 22:23:23.411525 26653 evaluator_manager.cc:420] [prediction]Evaluator [6] is registered.
+I1105 22:23:23.426803 26653 evaluator_manager.cc:420] [prediction]Evaluator [9] is registered.
+I1105 22:23:23.431421 26653 evaluator_manager.cc:420] [prediction]Evaluator [7] is registered.
+I1105 22:23:23.809902 26653 evaluator_manager.cc:420] [prediction]Evaluator [8] is registered.
+I1105 22:23:26.938625 26653 evaluator_manager.cc:420] [prediction]Evaluator [10] is registered.
+I1105 22:23:26.938781 26653 evaluator_manager.cc:170] [prediction]Defined vehicle on lane obstacle evaluator [3]
+I1105 22:23:26.939417 26653 evaluator_manager.cc:172] [prediction]Defined cyclist on lane obstacle evaluator [5]
+I1105 22:23:26.939465 26653 evaluator_manager.cc:174] [prediction]Defined default on lane obstacle evaluator [0]
+I1105 22:23:26.956600 26653 evaluator_manager.cc:179] [prediction]Init SemanticMap instance.
+[0;33mW1105 22:23:26.960541 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:26.960675 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:26.960716 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:26.960752 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:26.960786 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:26.960820 26653 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:23:26.960935 26653 hdmap.cc:24] [map]Loading HDMap: /apollo/modules/prediction/eval_data/map.bin ...
+[0;33mW1105 22:23:29.319072 26653 hdmap_common.cc:630] [map]stop sign 2915has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319118 26653 hdmap_common.cc:630] [map]stop sign 2979has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319128 26653 hdmap_common.cc:630] [map]stop sign 2203has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319136 26653 hdmap_common.cc:630] [map]stop sign 1014has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319149 26653 hdmap_common.cc:630] [map]stop sign 1023has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319157 26653 hdmap_common.cc:630] [map]stop sign 1029has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319165 26653 hdmap_common.cc:630] [map]stop sign 2898has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319173 26653 hdmap_common.cc:630] [map]stop sign 1032has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319181 26653 hdmap_common.cc:630] [map]stop sign 2202has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319190 26653 hdmap_common.cc:630] [map]stop sign 2883has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319198 26653 hdmap_common.cc:630] [map]stop sign 1015has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319207 26653 hdmap_common.cc:630] [map]stop sign 1040has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319216 26653 hdmap_common.cc:630] [map]stop sign 1012has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319226 26653 hdmap_common.cc:630] [map]stop sign 1033has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319233 26653 hdmap_common.cc:630] [map]stop sign 1043has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319242 26653 hdmap_common.cc:630] [map]stop sign 2879has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319250 26653 hdmap_common.cc:630] [map]stop sign 2903has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319259 26653 hdmap_common.cc:630] [map]stop sign 1021has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319270 26653 hdmap_common.cc:630] [map]stop sign 1031has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319279 26653 hdmap_common.cc:630] [map]stop sign 1020has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319288 26653 hdmap_common.cc:630] [map]stop sign 2324has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319296 26653 hdmap_common.cc:630] [map]stop sign 1027has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319305 26653 hdmap_common.cc:630] [map]stop sign 1044has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319314 26653 hdmap_common.cc:630] [map]stop sign 1035has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319324 26653 hdmap_common.cc:630] [map]stop sign 1034has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319332 26653 hdmap_common.cc:630] [map]stop sign 2969has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319352 26653 hdmap_common.cc:630] [map]stop sign 2994has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319361 26653 hdmap_common.cc:630] [map]stop sign 1041has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319370 26653 hdmap_common.cc:630] [map]stop sign 2766has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319378 26653 hdmap_common.cc:630] [map]stop sign 1016has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319387 26653 hdmap_common.cc:630] [map]stop sign 1042has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319396 26653 hdmap_common.cc:630] [map]stop sign 1019has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319404 26653 hdmap_common.cc:630] [map]stop sign 1017has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319413 26653 hdmap_common.cc:630] [map]stop sign 1039has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319423 26653 hdmap_common.cc:630] [map]stop sign 1026has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319434 26653 hdmap_common.cc:630] [map]stop sign 1013has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319447 26653 hdmap_common.cc:630] [map]stop sign 1030has no overlap with any junction.
+[m[0;33mW1105 22:23:29.319454 26653 hdmap_common.cc:630] [map]stop sign 1022has no overlap with any junction.
+[mI1105 22:23:30.716114 26653 hdmap_util.cc:78] [map]Load HDMap success: /apollo/modules/prediction/eval_data/map.bin
+[0;33mW1105 22:23:30.716467 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716513 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716534 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716552 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716570 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716588 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.716795 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716820 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716837 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716856 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716874 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.716892 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.717093 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717118 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717136 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717154 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717170 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717188 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.717382 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717404 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717422 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717440 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717458 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717475 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.717669 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717690 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717710 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717726 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717743 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717761 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.717955 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717978 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.717996 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718014 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718032 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718061 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.718256 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718278 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718297 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718314 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718331 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718348 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.718535 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718559 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718575 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718593 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718611 26653 evaluate_prediction.cc:99] []obstacle msg
+[m[0;33mW1105 22:23:30.718798 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718820 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718838 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718855 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718873 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718890 26653 evaluate_prediction.cc:93] []pose msg
+[m[0;33mW1105 22:23:30.718907 26653 evaluate_prediction.cc:99] []obstacle msg
+[mI1105 22:23:30.722023 26653 evaluate_prediction.cc:136] []Start prediction
+I1105 22:23:30.724506 26653 global_data.cc:155] []host ip: 141.212.108.156
+[0;33mW1105 22:23:30.724869 26653 scheduler_factory.cc:63] []No sched conf found, use default conf.
+[mI1105 22:23:30.725242 26703 processor.cc:41] []processor_tid: 26703
+I1105 22:23:30.725416 26704 processor.cc:41] []processor_tid: 26704
+I1105 22:23:30.725621 26705 processor.cc:41] []processor_tid: 26705
+I1105 22:23:30.725841 26706 processor.cc:41] []processor_tid: 26706
+I1105 22:23:30.726001 26707 processor.cc:41] []processor_tid: 26707
+I1105 22:23:30.726209 26708 processor.cc:41] []processor_tid: 26708
+I1105 22:23:30.726492 26709 processor.cc:41] []processor_tid: 26709
+I1105 22:23:30.726507 26710 processor.cc:41] []processor_tid: 26710
+I1105 22:23:30.726575 26711 processor.cc:41] []processor_tid: 26711
+I1105 22:23:30.729233 26712 processor.cc:41] []processor_tid: 26712
+I1105 22:23:30.729368 26713 processor.cc:41] []processor_tid: 26713
+I1105 22:23:30.729461 26714 processor.cc:41] []processor_tid: 26714
+I1105 22:23:30.729539 26715 processor.cc:41] []processor_tid: 26715
+I1105 22:23:30.733163 26716 processor.cc:41] []processor_tid: 26716
+I1105 22:23:30.733347 26717 processor.cc:41] []processor_tid: 26717
+I1105 22:23:30.733547 26718 processor.cc:41] []processor_tid: 26718
+I1105 22:23:30.734001 26653 scheduler.cc:54] []create croutine: /internal/task0
+I1105 22:23:30.734035 26653 scheduler.cc:54] []create croutine: /internal/task1
+I1105 22:23:30.734055 26653 scheduler.cc:54] []create croutine: /internal/task2
+I1105 22:23:30.734091 26653 scheduler.cc:54] []create croutine: /internal/task3
+I1105 22:23:30.734109 26653 scheduler.cc:54] []create croutine: /internal/task4
+I1105 22:23:30.734127 26653 scheduler.cc:54] []create croutine: /internal/task5
+I1105 22:23:30.734148 26653 scheduler.cc:54] []create croutine: /internal/task6
+I1105 22:23:30.734181 26653 scheduler.cc:54] []create croutine: /internal/task7
+I1105 22:23:30.734261 26653 scheduler.cc:54] []create croutine: /internal/task8
+I1105 22:23:30.734294 26653 scheduler.cc:54] []create croutine: /internal/task9
+I1105 22:23:30.734319 26653 scheduler.cc:54] []create croutine: /internal/task10
+I1105 22:23:30.734341 26653 scheduler.cc:54] []create croutine: /internal/task11
+I1105 22:23:30.734361 26653 scheduler.cc:54] []create croutine: /internal/task12
+I1105 22:23:30.734380 26653 scheduler.cc:54] []create croutine: /internal/task13
+I1105 22:23:30.734417 26653 scheduler.cc:54] []create croutine: /internal/task14
+I1105 22:23:30.734444 26653 scheduler.cc:54] []create croutine: /internal/task15
+[0;33mW1105 22:23:30.734680 26653 evaluator_manager.cc:263] [prediction]vehicle non-caution on lane
+[mI1105 22:23:31.062584 26653 evaluate_prediction.cc:140] []Finish prediction
+[0;33mW1105 22:23:31.062646 26653 evaluate_prediction.cc:149] []0 0.819953
+[m[0;33mW1105 22:23:31.062659 26653 evaluate_prediction.cc:149] []1 0.819953
+[m

@@ -40,6 +40,16 @@ cc_test(
 )
 
 cc_binary(
+  name = "evaluate_prediction",
+  srcs = ["evaluate_prediction.cc"],
+  deps = [
+      "//modules/prediction/container:container_manager",
+      "//modules/prediction/evaluator:evaluator_manager",
+      "//modules/prediction/predictor:predictor_manager",
+  ],
+)
+
+cc_binary(
     name = "libprediction_component.so",
     linkshared = True,
     linkstatic = False,

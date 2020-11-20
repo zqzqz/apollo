@@ -62,6 +62,7 @@ bool SemanticLSTMEvaluator::Evaluate(Obstacle* obstacle_ptr,
   }
   cv::Mat feature_map;
   if (!SemanticMap::Instance()->GetMapById(id, &feature_map)) {
+    AERROR << "GetMapById failed.";
     return false;
   }
   // Process the feature_map

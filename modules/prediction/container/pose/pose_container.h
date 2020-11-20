@@ -59,6 +59,8 @@ class PoseContainer : public Container {
    */
   double GetTimestamp();
 
+  void Clear();
+
  private:
   /**
    * @brief Update pose

@@ -101,5 +101,9 @@ const PerceptionObstacle* PoseContainer::ToPerceptionObstacle() {
   return obstacle_ptr_.get();
 }
 
+void PoseContainer::Clear() {
+  obstacle_ptr_.get();
+}
+
 }  // namespace prediction
 }  // namespace apollo

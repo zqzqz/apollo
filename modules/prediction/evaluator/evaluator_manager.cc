@@ -162,7 +162,9 @@ void EvaluatorManager::Init(const PredictionConf& config) {
           }
           break;
         }
-        default: { break; }
+        default: {
+          break;
+        }
       }
     }
   }
@@ -199,7 +201,9 @@ void EvaluatorManager::Run(ObstaclesContainer* obstacles_container) {
 
   std::vector<Obstacle*> dynamic_env;
 
-  if (FLAGS_enable_multi_thread) {
+  // EDIT
+  // if (FLAGS_enable_multi_thread) {
+  if (false) {
     IdObstacleListMap id_obstacle_map;
     GroupObstaclesByObstacleIds(obstacles_container, &id_obstacle_map);
     PredictionThreadPool::ForEach(
@@ -233,12 +237,17 @@ void EvaluatorManager::EvaluateObstacle(Obstacle* obstacle,
   // Select different evaluators depending on the obstacle's type.
   switch (obstacle->type()) {
     case PerceptionObstacle::VEHICLE: {
-      if (obstacle->IsCaution() && !obstacle->IsSlow()) {
+      // EDIT
+      // if (obstacle->IsCaution() && !obstacle->IsSlow()) {
+      if (true) {
         if (obstacle->IsNearJunction()) {
+          AWARN << "vehicle caution junction";
           evaluator = GetEvaluator(vehicle_in_junction_caution_evaluator_);
         } else if (obstacle->IsOnLane()) {
+          AWARN << "vehicle caution on lane";
           evaluator = GetEvaluator(vehicle_on_lane_caution_evaluator_);
         } else {
+          AWARN << "vehicle caution default";
           evaluator = GetEvaluator(vehicle_default_caution_evaluator_);
         }
         CHECK_NOTNULL(evaluator);
@@ -253,10 +262,13 @@ void EvaluatorManager::EvaluateObstacle(Obstacle* obstacle,
       // if obstacle is not caution or caution_evaluator run failed
       if (obstacle->HasJunctionFeatureWithExits() &&
           !obstacle->IsCloseToJunctionExit()) {
+        AWARN << "vehicle non-caution junction";
         evaluator = GetEvaluator(vehicle_in_junction_evaluator_);
       } else if (obstacle->IsOnLane()) {
+        AWARN << "vehicle non-caution on lane";
         evaluator = GetEvaluator(vehicle_on_lane_evaluator_);
       } else {
+        AWARN << "vehicle non-caution default";
         ADEBUG << "Obstacle: " << obstacle->id()
                << " is neither on lane, nor in junction. Skip evaluating.";
         break;
@@ -402,7 +414,9 @@ std::unique_ptr<Evaluator> EvaluatorManager::CreateEvaluator(
       evaluator_ptr.reset(new SemanticLSTMEvaluator());
       break;
     }
-    default: { break; }
+    default: {
+      break;
+    }
   }
   return evaluator_ptr;
 }

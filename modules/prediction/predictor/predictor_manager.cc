@@ -133,7 +133,9 @@ void PredictorManager::Run(
     ObstaclesContainer* obstacles_container) {
   prediction_obstacles_.Clear();
 
-  if (FLAGS_enable_multi_thread) {
+  // EDIT
+  // if (FLAGS_enable_multi_thread) {
+  if (false) {
     PredictObstaclesInParallel(perception_obstacles, adc_trajectory_container,
                                obstacles_container);
   } else {
@@ -394,7 +396,9 @@ void PredictorManager::RunVehiclePredictor(
     const ADCTrajectoryContainer* adc_trajectory_container, Obstacle* obstacle,
     ObstaclesContainer* obstacles_container) {
   Predictor* predictor = nullptr;
-  if (obstacle->IsCaution()) {
+  // EDIT
+  if (true) {
+  // if (obstacle->IsCaution()) {
     if (obstacle->IsNearJunction()) {
       predictor = GetPredictor(vehicle_in_junction_caution_predictor_);
     } else if (obstacle->IsOnLane()) {
